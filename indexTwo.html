@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundations 3 </title>
+</head>
+<body>
+    <p>JS code Q1 - 4</p>
+    <script>
+        //JS code adds 7 to any number
+        function add7(num){
+            console.log(num + 7);
+        };
+        add7(10);
+
+        //JS code multiplies to given numbers 
+        function multiply(a, b){
+            console.log(a * b);
+        };
+        multiply(4, 5);
+
+        //JS code capitalizes the first letter of any word
+        function capitalized(a){
+            let wholeWord = a[0].toUpperCase();
+            let remainingLetters = a.slice(1).toLowerCase();
+            console.log(wholeWord + remainingLetters);
+        };
+        capitalized("DaRkVoid");
+
+        //JS code takes a string and returns the very last letter 
+        function lastLetter(a){
+            let word = a.slice(-1);
+            console.log(word);
+        };
+        lastLetter("Spongebob");
+
+
+
+        
+    </script>
+
+    
+</body>
+</html>
